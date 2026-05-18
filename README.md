@@ -29,8 +29,12 @@ Each lesson has its own directory with:
 
 ```bash
 # For RISC-V assembly lessons, install:
-sudo apt-get install gcc-riscv64-unknown-elf binutils-riscv64-unknown-elf
-sudo apt-get install qemu-system-misc gdb-multiarch
+sudo apt update -y
+sudo apt install -y gcc-riscv64-unknown-elf qemu-system-misc gdb-multiarch
+
+# For GDB Dashboard, install:
+wget -P ~ https://github.com/cyrus-and/gdb-dashboard/raw/master/.gdbinit
+pip install pygments
 ```
 
 ## 📖 How to Use
