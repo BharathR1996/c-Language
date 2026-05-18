@@ -18,6 +18,11 @@ A comprehensive learning resource for C programming and RISC-V assembly language
 - Repeated addition algorithm (2 × 5 = 10)
 - Advanced debugging techniques
 
+### [Lesson 4: RISC-V C to Assembly](./04-riscv-C-to-Assembly/)
+- Compile C functions to RISC-V assembly
+- Assembly directives and debug info (DWARF)
+- Clean vs. debug assembly output
+
 ## 🚀 Getting Started
 
 Each lesson has its own directory with:
