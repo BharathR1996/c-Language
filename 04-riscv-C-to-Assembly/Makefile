@@ -26,9 +26,9 @@ assembler: C-asm.c
 	riscv64-unknown-elf-gcc -O0 -ggdb -nostdlib -march=rv32i -mabi=ilp32 -Wl,-Tmain.ld C-asm.c -S
 
 assembler_without_gdb: C-asm.c
-	riscv64-unknown-elf-gcc -O0 -nostdlib -march=rv32i -mabi=ilp32 -Wl,-Tmain.ld C-asm.c -S
+	riscv64-unknown-elf-gcc -O0 -nostdlib -march=rv32i -mabi=ilp32 -Wl,-Tmain.ld C-asm.c -S -o main.s
 
-compile: main.s main.ld
+compile: assembler_without_gdb main.s main.ld
 	riscv64-unknown-elf-gcc -O0 -ggdb -nostdlib -march=rv32i -mabi=ilp32 -Wl,-Tmain.ld main.s -o main.elf
 	riscv64-unknown-elf-objcopy -O binary main.elf main.bin
 
