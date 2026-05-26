@@ -23,6 +23,12 @@ A comprehensive learning resource for C programming and RISC-V assembly language
 - Assembly directives and debug info (DWARF)
 - Clean vs. debug assembly output
 
+### [Lesson 5: RISC-V C and Assembly Integration](./05-riscv-C-and-assembly/)
+- Integrating assembly and C code in a single project
+- Assembly entry point calling C functions
+- Linker scripts and compilation order
+- QEMU emulation with GDB debugging
+
 ## 🚀 Getting Started
 
 Each lesson has its own directory with:
