@@ -43,3 +43,18 @@ startgdb: main.elf
 
 clean:
 	rm -rf *.out *.bin *.elf *.gdb_history
+
+clean_all: clean
+	rm -rf *.s
+
+help:
+	@echo "Makefile Usage:"
+	@echo "  assembler:				Compile C-asm.c to assembly (with debug symbols)"
+	@echo "  assembler_without_gdb: 		Compile C-asm.c to assembly (without debug symbols)"
+	@echo "  compile: 				Compile main.s to main.elf and create main.bin"
+	@echo "  printbinary: 				Display the contents of main.bin in hexadecimal format"
+	@echo "  startqemu: 				Start QEMU with main.elf for debugging"
+	@echo "  startgdb: 				Start GDB and connect to QEMU for debugging"
+	@echo "  clean: 				Remove generated files"
+	@echo "  clean_all: 				Remove all generated files"
+
