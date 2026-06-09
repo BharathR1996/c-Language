@@ -29,6 +29,27 @@ A comprehensive learning resource for C programming and RISC-V assembly language
 - Linker scripts and compilation order
 - QEMU emulation with GDB debugging
 
+### [Lesson 6: RISC-V C Data Types & Stack Memory Layout](./06-riscv-C-dataTypes/)
+- C data types allocation in RISC-V: `int`, `char`, `float`, `double`, `short`, `long`
+- Stack frame allocation and memory alignment
+- Frame pointer and stack pointer management
+- RISC-V calling conventions (ABI)
+- Local variable storage on the stack
+
+### [Lesson 7: RISC-V `const` and Pointer Behavior](./07-riscv-C-const/)
+- C `const` qualifier semantics and compiler handling
+- Pointer assignment to `const` objects
+- Compiler warnings for discarded qualifiers
+- RISC-V C to assembly compilation
+- Const value storage and pointer arithmetic in assembly
+
+### [Lesson 8: RISC-V `volatile` Qualifier and Compiler Optimization](./08-riscv-C-volatile/)
+- C `volatile` qualifier effects on compiler behavior
+- Dead code elimination and optimization levels (-O0, -O1, -O2, -O3)
+- Memory operations and compiler optimization
+- Hardware register access patterns
+- Embedded systems memory-mapped I/O considerations
+
 ## 🚀 Getting Started
 
 Each lesson has its own directory with:
