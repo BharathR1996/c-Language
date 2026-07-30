@@ -57,6 +57,13 @@ A comprehensive learning resource for C programming and RISC-V assembly language
 - Calling a C function from assembly entry code
 - Bare-metal execution flow with QEMU and GDB
 
+### [Lesson 10: Switch-Case Conditions in C and RISC-V Assembly](./10-riscv-C-switch-case-condition/)
+- Switch-case control flow in C
+- Case labels, default handling, and break statements
+- Fall-through behavior when break is omitted
+- Comparing values and branching in generated RISC-V assembly
+- Bare-metal execution flow with QEMU and GDB
+
 ## 🚀 Getting Started
 
 Each lesson has its own directory with:
