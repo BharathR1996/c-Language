@@ -50,6 +50,13 @@ A comprehensive learning resource for C programming and RISC-V assembly language
 - Hardware register access patterns
 - Embedded systems memory-mapped I/O considerations
 
+### [Lesson 9: If-Else Conditions in C and RISC-V Assembly](./09-riscv-C-if-else-condition/)
+- If/else-if/else control flow in C
+- Conditional branching in RISC-V assembly
+- Comparing values and jumping with branch instructions
+- Calling a C function from assembly entry code
+- Bare-metal execution flow with QEMU and GDB
+
 ## 🚀 Getting Started
 
 Each lesson has its own directory with:
